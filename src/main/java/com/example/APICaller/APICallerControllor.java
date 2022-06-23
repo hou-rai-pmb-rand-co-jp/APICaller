@@ -38,7 +38,7 @@ public class APICallerControllor {
         
         model.addAttribute("hello", encode(json));
         
-        System.out.println(StringEscapeUtils.unescapeJava(json));
+        System.out.println("■■■■■■■■■■　" + StringEscapeUtils.unescapeJava(json));
       
         return "APICaller";
     }
